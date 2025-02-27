@@ -1,47 +1,54 @@
-<!-- 
-    CodSoft Internship - Web Development
-    Batch - July
-    Name - Mohit Jaiswal
-    Date - 09/07/2023
-    Level 1 (Task 3) - Simple Calculator
--->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>rashi sharma - Level 1 (Task 2)</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashi Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Images/Logo/Favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>rashi Sharma</h1>
-    </div>
-    <div class="calculator">
-        <input type="text" id="result" readonly>
-        <div class="buttons">
-            <button onclick="appendNumber('7')">7</button>
-            <button onclick="appendNumber('8')">8</button>
-            <button onclick="appendNumber('9')">9</button>
-            <button onclick="appendOperator('+')">+</button>
-            <button onclick="appendNumber('4')">4</button>
-            <button onclick="appendNumber('5')">5</button>
-            <button onclick="appendNumber('6')">6</button>
-            <button onclick="appendOperator('-')">-</button>
-            <button onclick="appendNumber('1')">1</button>
-            <button onclick="appendNumber('2')">2</button>
-            <button onclick="appendNumber('3')">3</button>
-            <button onclick="appendOperator('*')">*</button>
-            <button onclick="appendNumber('0')">0</button>
-            <button onclick="appendOperator('/')">/</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearResult()">C</button>
-        </div>
-    </div>
 
-    <script src="script.js"></script>
+    <!-- Heading and Navigartion Bar -->
+    <header id="header">
+        <nav class="navbar" id="navbar">
+            <div class="menu">
+                <ul class="bar">
+                    <li><a href="/HTML/sorry.html" class="active" target="_blank">Home</a></li>
+                    <li><a href="/HTML/sorry.html" target="_blank">About</a></li>
+                    <li><a href="/HTML/sorry.html" target="_blank">Skills</a></li>
+                    <li><a href="/HTML/sorry.html" target="_blank">Achivements</a></li>
+                    <li><a href="/HTML/sorry.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Homepage -->
+    <section class="homepage" id="homepage">
+        <h1 class="welcome">
+            Welcome, I am
+        </h1>
+        <h1 class="myname">
+            Rashi Sharma
+        </h1>
+        <p class="intro">
+
+            <span style="padding-right: 5px">final Year</span>BCA pursuing in Computer application @ <span style="padding-left: 5px"><a href="https://mitaoe.ac.in/" target="_blank">saraswati college shegaon, shegaon.</a></span>
+            <br> Open for Project collaboration & Internship opportunities.
+        </p>
+        <div id="gradient1"></div>
+        <div id="gradient2"></div>
+
+        <button class="resume" id="resume">
+            <a href="/Mohit_Jaiswal_Resume.pdf" target="_blank">Download Resume</a>
+        </button>
+    </section>
 </body>
 
 </html>
